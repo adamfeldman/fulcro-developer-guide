@@ -574,7 +574,7 @@ Most UIs end up with a mess of logic spread out in ways that are hard to reason 
 an application.  Are you logged in? Are we checking the server to see if our session is valid?  Should I show a "wait" indicator?
 
 We've known for years that state machines are a great way to manage this kind of complexity, but they are traditionally
-a bit of work to integrate into any give "UI library".
+a bit of work to integrate into any given "UI library".
 
 Fulcro's central normalized database and mutation model made an internal version of state machines a very good match. Not
 only is it easy to define them, the model makes them reusable: that is to say you can indicate which UI components
